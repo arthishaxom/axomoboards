@@ -7,7 +7,7 @@
     color: white;
 }
 body{
-    background-image: url("Axom-BG.png");
+    background:rgb(37, 37, 37);
 }
 /* .box{border: 2px solid red;} */
 .container{
@@ -88,4 +88,17 @@ body{
 
 .nav-item:hover a {
     color: rgb(58, 58, 58);
+}
+
+@media screen and (max-width:770px){
+    .container{
+        justify-content: center;
+    }
+    .nav-links a{
+        padding:5px 10px;
+        font-size: 18px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
 }
