@@ -94,9 +94,17 @@ body{
     .container{
         justify-content: center;
     }
+    .navbar{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:480px){
+    .container{
+        justify-content: center;
+    }
     .nav-links a{
-        padding:5px 10px;
-        font-size: 18px;
+        padding: 5px 6px;
+        font-size: 15px;
     }
     .navbar{
         flex-direction: column;
